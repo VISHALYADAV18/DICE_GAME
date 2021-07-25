@@ -170,3 +170,15 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D;font-family: 'Dancing Script', cursive; }
+
+@media (max-width:768px)
+{
+    .wrapper
+    {
+        display:block;
+        transform: rotate(-90deg);
+    }
+}
+
+
+
