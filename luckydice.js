@@ -63,7 +63,7 @@
     // Anything else is COERCED to true
 	 
 	//checking who wins the game
-	if (scores[activePlayer]>=10)
+	if (scores[activePlayer]>=50)
 	{
 	document.querySelector('#name-'+activePlayer).textContent='Winner !';
 	document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
